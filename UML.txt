@@ -1,0 +1,29 @@
+DIAGRAMA UML - CATALOGO DE PRODUCTOS
+
+Catalogo
+- productos: list[Producto]
+- indice: dict[str, Producto]
+- codigos: set[str]
++ agregar(producto)
++ buscar(codigo)
++ listar()
++ actualizar(codigo, nombre, precio)
++ eliminar(codigo)
++ cargar_datos_prueba()
+
+Producto
+- _codigo: str
+- _nombre: str
+- _precio: float
++ codigo
++ nombre
++ precio
++ __str__()
+
+ProductoFisico --|> Producto
+- peso: float
+
+ProductoDigital --|> Producto
+- formato: str
+
+Catalogo o-- Producto
