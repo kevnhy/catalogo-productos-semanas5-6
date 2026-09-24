@@ -109,7 +109,7 @@ Las pruebas comprueban agregar/buscar, actualizar, eliminar, duplicados y valida
 
 Antes de entregar, publicar este proyecto en un repositorio público de GitHub y reemplazar el enlace de abajo por la URL real:
 
-**Repositorio:** `PEGAR_AQUI_LA_URL_PUBLICA_DE_GITHUB`
+**Repositorio:** https://github.com/kevnhy/catalogo-productos-semanas5-6
 
 ## 10. Datos de prueba
 
